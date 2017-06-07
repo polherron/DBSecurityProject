@@ -80,7 +80,7 @@ namespace Project
         public static bool IsEncrypted(string input)
         {
             string i = "hello world";
-              return (input.Contains("=="));
+              return (input.Contains("="));
         }
        
         private void btnAddUser_Click(object sender, EventArgs e)
