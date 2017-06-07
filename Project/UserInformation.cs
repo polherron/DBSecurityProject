@@ -79,7 +79,7 @@ namespace Project
         //Fix for issue where decrypted value being passed to decryption method.
         public static bool IsEncrypted(string input)
         {
-            string i = "hello world";
+            string i = "hello world hi";
               return (input.Contains("="));
         }
        
